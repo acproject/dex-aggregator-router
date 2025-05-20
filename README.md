@@ -11,3 +11,11 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.ts
 ```
+todo:
+➕ 加入 slippage 容错处理逻辑（设定最小接收数）
+
+➕ 加入 SushiSwap 路由测试
+
+➕ 聚合报价模块（getBestDex）→ 初步优化路由选择
+
+🚀 集成前端 UI 模拟 swap（可选）
